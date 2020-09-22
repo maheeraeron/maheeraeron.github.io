@@ -1,97 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Maheer Aeron Resume</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Maheer Aeron Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <section id="heading-section">
-            <h1>Maheer Aeron  </h1>
-            <img src ="profile_picture.jpeg" width="250" height="250">
-            <p><a id="contact-info-anchor"></a>4709 169th ST SE, Bothell, WA 98012 | Phone: +1 425 418 0668 | maheeraeron@vt.edu</p>
+<body>
+    <div id="resume-body">
+
+        <!-- NAV BAR SECTION (note we will use this as our banner)-->
+        <section id="nav-bar-1" class="resume-section banner">
+            <div class="section-navigation">
+                <nav>
+                    <a href="#objective-anchor">Objective</a>
+                    <a href="#education-anchor">Education</a>
+                    <a href="#job-experience-anchor">Job Experience</a>
+                    <a href="maheeraeron_resume2.html">Next page</a>
+                </nav>
+            </div>
         </section>
-        <hr>
 
-        <section id="objective-section">
-            <h1 class="resume-heading"><a id="objective-anchor"></a>Objective</h1>
-            <p>Energetic hardworking individual who demonstrates strong aptitude for technology and software design. <br>
-                Leader who functions as a catalyst and seeks to unlock the capabilities of peers to facilitate tasks.
-            </p>
+        <!-- This is the top of the resume-->
+        <section id="resumeprofile" class="resume-section">
+
+            <div id="headshot">
+                <img src="profile_picture.jpeg" width="250" height="250">
+            </div>
+
+            <div id="name-occupation">
+                <h1>Maheer Aeron</h1>
+                <h2>B.S. Computer Science</h2>
+            </div>
+
+            <div id="contact-details">
+                <h4>4709 169th ST SE, Bothell, WA 98012 | Phone: +1 425 418 0668 | maheeraeron@vt.edu</p>
+            </div>
+
         </section>
-    
-        <br>
 
-        <section id="education-section">
-            <h1 class="resume-heading"><a id="education-anchor"></a>Education</h1>
-            <h3>Virginia Polytechnic University</h3>
-            <ul>
-                <li>Second year student with Junior Standing</li>
-                <li>Major: Computer Science | Major GPA: 4.0 / 4.0</li>
-                <li>Start: Fall 2019 | Anticipated Graduation: Fall 2021</li>
-            </ul>
+        <!-- OBJECTIVE SECTION-->
+        <section id="objective" class="resume-section">
+            <div class="section-title">
+                <h1><a id="objective-anchor" class="custom-anchor"></a>Objective</h1>
+            </div>
+
+            <div class="section-content">
+                <p>Energetic hardworking individual who demonstrates strong aptitude for technology and software
+                    design. Leader who functions as a catalyst and seeks to unlock the capabilities of peers to
+                    facilitate tasks. </p>
+            </div>
+
         </section>
-        
-        <br>
 
-        <section id="job-experience-section">
-            <h1 class="resume-heading"><a id="job-experience-anchor"></a>Job Experience</h1>
+        <!-- EDUCATION SECTION-->
+        <section id="education" class="resume-section">
+            <div class="section-title">
+                <h1><a id="education-anchor" class="custom-anchor"></a>Education</h1>
+            </div>
 
-            <div id="microsoft-internship-job">
-                <h3>Microsoft COSINE BASE – High Availability Storage</h2>
+            <div class="section-content">
+                <h3>Virginia Polytechnic University</h3>
+                <ul>
+                    <li>Second year student with Junior Standing</li>
+                    <li>Major: Computer Science | Major GPA: 4.0 / 4.0</li>
+                    <li>Start: Fall 2019 | Anticipated Graduation: Fall 2021</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- JOB EXPERIENCE SECTION-->
+        <section id="job-experience" class="resume-section">
+            <div class="section-title">
+                <h1><a id="job-experience-anchor" class="custom-anchor"></a>Job Experience</h1>
+            </div>
+
+            <div class="section-content">
+
+                <h3>Microsoft COSINE BASE - High Availability and Storage</h3>
                 <h4>Software Engineer Intern | June 2019 - August 2019</h4>
-                <hr>
-                <p>
-                    I was an intern in the Windows Operating System division and worked on Storage and Clustering Technologies.
-                    <br>
-                    SDDC Management is a resource used in hyper-converged, failover clusters for Windows Servers equipped with
-                    <br>
-                    Storage Spaces Direct. Using C++ and Windows PowerShell cmdlets, I developed a feature within the SDDC
-                    <br>
-                    Management Resource Type Dll to support versioning between RS5 and 19H1 builds of Windows Server. This
-                    <br>
-                    allowed enterprises to utilize Windows hyper-converged clustering technology support for their servers when
-                    <br>
-                    running mixed-mode clusters during server upgrades.
-                    <br> 
-                </p>
+                <p> I was an intern in the Windows Operating System division and worked on Storage and Clustering
+                    Technologies. SDDC Management is a resource used in hyper-converged, failover clusters for Windows
+                    Servers equipped with Storage Spaces Direct. Using C++ and Windows PowerShell cmdlets, I developed a
+                    feature within the SDDC Management Resource Type Dll to support versioning between RS5 and 19H1
+                    builds of Windows Server. This allowed enterprises to utilize Windows hyper-converged clustering
+                    technology support for their servers when running mixed-mode clusters during server upgrades. </p>
 
-                <p class="technologies">Technology: C++, PowerShell cmdlets</p>
-            </div>
-
-            <br>
-
-            <div id="assurance-job">
-                <h3>Assurance Inc.</h2>
+                <h3>Assurance INC.</h3>
                 <h4>Software Engineer | June 2018 - May 2019</h4>
-                <hr>
-                <p>
-                    Assurance designs and develops software solutions for major retail and government organizations in the US. I was
-                    <br>
-                    involved in design and development of a web-based API for production and performance recording application for 
-                    <br>
-                    Ross Inc. I was also involved in a mobile application development that was part of an inventory management application.
-                </p>
+                <p> Assurance designs and develops software solutions for major retail and government organizations in
+                    the US. I was involved in design and development of a web-based API for production and performance
+                    recording application for Ross Inc. I was also involved in a mobile application development that was
+                    part of an inventory management application. </p>
 
-                <p class="technologies">Technology: C#, ASP.NET, Java, TSQL</p>
             </div>
         </section>
-        
-        <br>
-        <br>
-
-        <nav>
-            <a href="#contact-info-anchor">Contact Info</a>
-            <a href="#objective-anchor">Objective</a>
-            <a href="#education-anchor">Education</a>
-            <a href="#job-experience-anchor">Job Experience</a>
-            <a href="maheeraeron_resume2.html">Next page</a>
-        </nav>
-        
 
 
 
-    </body>
+    </div>
+
+</body>
 
 </html>
